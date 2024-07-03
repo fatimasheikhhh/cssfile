@@ -1,12 +1,11 @@
 body{  
     /* body is the selector in  this styling*/
     background-color: white;
-    color: red;
     background-image: url('/Images/bground.jpg');
     background-attachment: fixed;
     
 }
-p{
+#p1{
     color: white;
     border: 2px solid purple;
     background-color: violet;
@@ -14,8 +13,68 @@ p{
     background-image: url('Images/bg.jpg');
     background-attachment: fixed;
     font-weight: bolder;
+    border-radius: 10px;
     
 }
 h1{
     color: #0f0cff;
 }
+#para{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: green;
+    padding: 5px;
+    color: black;
+    border-radius: 5px ;
+    margin-top: 10px;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 10px;
+    margin: 5px;
+    outline-offset: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#d2{
+
+    margin: 10px;
+}
+#P{
+    text-transform: capitalize;
+    color: green;
+    font-weight: bolder ;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: palevioletred;
+    border: 2px darkgreen;
+    padding:10px ;
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+    background-color: aquamarine;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    background-color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    background-color: blueviolet;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    background-color: burlywood;
+  }
