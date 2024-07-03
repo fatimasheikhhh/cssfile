@@ -1,0 +1,21 @@
+body{  
+    /* body is the selector in  this styling*/
+    background-color: white;
+    color: red;
+    background-image: url('/Images/bground.jpg');
+    background-attachment: fixed;
+    
+}
+p{
+    color: white;
+    border: 2px solid purple;
+    background-color: violet;
+    padding: 5px;
+    background-image: url('Images/bg.jpg');
+    background-attachment: fixed;
+    font-weight: bolder;
+    
+}
+h1{
+    color: #0f0cff;
+}
