@@ -78,3 +78,11 @@ a:link {
     color: blue;
     background-color: burlywood;
   }
+  table {
+    border-collapse: collapse; /* Ensures that borders are not doubled */
+    width: 100%; /* Optional: makes the table take up the full width of its container */
+}
+
+table, th, td {
+    border: 1px solid black; /* Applies a border to the table, table headers, and table cells */
+}
